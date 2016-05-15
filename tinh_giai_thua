@@ -1,0 +1,15 @@
+#include<iostream>
+ 
+using namespace std;
+ 
+main()
+{
+   int n,i;
+   long int gt=1;
+   cout << "ban can tinh bao nhieu giai thua?" <<endl;
+   cin >> n;
+   for (i=2;i<=n;i++)
+      gt=gt*i;
+   cout << n << "giai thua bang: " << gt <<endl;
+   return 0;
+}
